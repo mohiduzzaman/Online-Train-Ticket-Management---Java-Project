@@ -1,0 +1,30 @@
+//Another path or directory compile class
+javac -d E:Song/package *.java
+//Another path or directory run..........
+java -classpath E:Song/package myPack.Main
+
+
+//current path compile
+javac -d . UserLogin.java
+//current path run...........
+java -classpath . ui.UserLogin
+
+
+//current path compile
+javac -d F:\Train\source\ui *.java
+//F:\Train\source\ui>
+javac -d F:\Train\source\ui UserLogin.java
+//Another path or directory compile
+javac -d F:\Train\classes *.java
+
+//
+ //Search Component values
+       //    for(int j=0;j<jptdestinationitem.getComponents().length;j++)
+           //    {
+            //        if(jptdestinationitem.getComponent(j) instanceof JTextField)
+             //        {
+            //            JTextField label=(JTextField)jptdestinationitem.getComponent(j);
+             //            String labelText=label.getText();
+             //            user2=us.searchUserDestination(labelText);
+              //        }
+              //    }
